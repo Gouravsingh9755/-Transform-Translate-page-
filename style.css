@@ -1,0 +1,302 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.container{
+
+    height: 100%;
+    width: 100%;
+}
+
+h6{
+font-size: 20px;
+color: grey;
+
+}
+
+h3{
+
+    font-size: 35px;
+
+}
+
+.filler1{
+
+    height: 70px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+}
+
+.nav1{
+
+    
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    gap: 10px;
+}
+
+.filler2{
+
+    height: 20px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;  
+}
+
+.navv{
+
+    width: 100%;
+    display: flex;
+
+}
+
+.nav2{
+
+    
+    width: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 10.5%;
+    
+    
+}
+
+h5{
+    padding-top: 10px;
+    font-size: 15px;
+    margin-left: 19px;
+    color: grey;
+}
+
+h5:hover{
+
+    color: black;
+}
+
+img{
+
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    
+}
+
+.nav3{
+
+
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right:  15%;
+    /* background-color: aqua; */
+    
+}
+
+.leftarrow{
+
+   
+    border-radius: 50%;
+}
+
+.leftarrow:hover{
+
+    background-color: black;
+}
+
+.rightarrow{
+
+   
+    border-radius: 50%;
+}
+
+.rightarrow:hover{
+
+    background-color: black;
+}
+
+.filler3{
+    height: 5%;
+    width: 100%;
+    /* background-color: aliceblue; */
+
+
+}
+
+.content{
+
+    height: 60%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.filler4{
+
+
+    height: 90%;
+    width: 10%;
+    /* background-color: orchid; */
+
+
+}
+
+.box1{
+
+    height: 90%;
+    width: 25%;
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1549533948-77ab8a0d9878?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+    
+}
+
+.box1:hover{
+
+    transform: translateY(-50px);
+    transition: all ease 1s;
+}
+
+.box2{
+
+    height: 90%;
+    width: 25%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1543579596-2c11997c7706?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGR1YmFpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+
+.box2:hover{
+
+    transform: translateY(-50px);
+    transition: all ease 1s;
+}
+
+.box3{
+
+    height: 90%;
+    width: 25%;
+    background-color: green;
+    background-image: url(https://images.unsplash.com/photo-1583207884889-d79abf0d0aa3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bGFzJTIwdmVnYXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.box3:hover{
+
+    transform: translateY(-50px);
+    transition: all ease 1s;
+}
+
+.filler5{
+
+
+    height: 90%;
+    width: 10%;
+    /* background-color: orchid; */
+
+
+}
+
+button{
+
+    height: 30px;
+    width: 90px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    font-weight: 700;
+
+}
+
+.boxh4{
+    
+    color: white;
+    height: 40px;
+    width: 90px;
+    /* background-color: aqua; */
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+.pbox1{
+
+    color: white;
+    height: 40px;
+    width: 120px;
+    /* background-color: aqua; */
+    font-family: sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: end;
+    position: relative;
+    right: 28%;
+    bottom: 1.8%;
+}
+
+
+.pbox2{
+
+    color: white;
+    height: 40px;
+    width: 120px;
+    /* background-color: aqua; */
+    font-family: sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: end;
+    position: relative;
+    right: 28%;
+    bottom: 1.8%;
+}
+
+
+.pbox3{
+
+    color: white;
+    height: 40px;
+    width: 120px;
+    /* background-color: aqua; */
+    font-family: sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: end;
+    position: relative;
+    right: 28%;
+    bottom: 1.8%;
+}
